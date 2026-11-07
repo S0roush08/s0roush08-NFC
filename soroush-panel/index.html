@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#080607">
+    <meta name="description" content="The personal space of Soroush.">
+
+    <title>SOROUSH — Personal Space</title>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="background">
+        <div class="glow glow-one"></div>
+        <div class="glow glow-two"></div>
+        <div class="noise"></div>
+    </div>
+
+    <!-- Intro Screen -->
+    <section class="intro" id="intro">
+
+        <div class="intro-content">
+
+            <div class="intro-image">
+                <img src="assets/profile.jpg" alt="Soroush">
+            </div>
+
+            <p class="intro-subtitle">A PERSONAL EXPERIENCE</p>
+
+            <h1>SOROUSH</h1>
+
+            <div class="intro-line"></div>
+
+            <button id="discoverBtn" class="discover-btn">
+                <span>DISCOVER</span>
+                <i class="fa-solid fa-arrow-right"></i>
+            </button>
+
+        </div>
+
+        <span class="intro-bottom">EST. 2008</span>
+
+    </section>
+
+
+    <!-- Main Website -->
+    <main class="main-container" id="main">
+
+        <!-- Navbar -->
+        <nav class="navbar reveal">
+
+            <a href="#" class="nav-logo">S<span>.</span></a>
+
+            <span class="nav-label">PERSONAL SPACE</span>
+
+            <div class="status">
+                <span class="status-dot"></span>
+                <span>ONLINE</span>
+            </div>
+
+        </nav>
+
+
+        <!-- Hero -->
+        <section class="hero">
+
+            <div class="hero-content reveal">
+
+                <span class="eyebrow">
+                    <span class="eyebrow-line"></span>
+                    WELCOME TO MY WORLD
+                </span>
+
+                <div class="hero-image">
+                    <img src="assets/profile.jpg" alt="Soroush">
+                    <div class="image-ring"></div>
+                </div>
+
+                <h1 class="hero-title">
+                    I'm <span>Soroush.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Not everything needs to be understood.
+                    Some things are simply meant to be felt.
+                </p>
+
+                <div class="hero-divider">
+                    <span></span>
+                    <i class="fa-solid fa-star"></i>
+                    <span></span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- Quote -->
+        <section class="quote-section reveal">
+
+            <span class="section-label">01 — THOUGHTS</span>
+
+            <div class="quote-card glass">
+
+                <i class="fa-solid fa-quote-left quote-icon"></i>
+
+                <p class="quote-text">
+                    I stopped explaining myself when I realized
+                    that silence can say things words never could.
+                </p>
+
+                <span class="quote-author">— SOROUSH</span>
+
+            </div>
+
+        </section>
+
+
+        <!-- Music -->
+        <section class="music-section reveal">
+
+            <span class="section-label">02 — NOW PLAYING</span>
+
+            <div class="music-card glass">
+
+                <div class="music-cover">
+                    <img src="assets/song-cover.jpg" alt="Song Cover">
+                    <div class="cover-overlay"></div>
+                </div>
+
+                <div class="music-info">
+
+                    <span class="music-caption">A SONG THAT FEELS LIKE ME</span>
+
+                    <h3>I Wish I Wasn't Awake</h3>
+
+                    <p>Intig</p>
+
+                    <div class="music-controls">
+
+                        <button id="playBtn" class="play-btn" aria-label="Play music">
+                            <i class="fa-solid fa-play"></i>
+                        </button>
+
+                        <div class="music-progress">
+
+                            <div class="progress-bar" id="progressBar">
+                                <div class="progress-fill" id="progressFill"></div>
+                            </div>
+
+                            <div class="time-row">
+                                <span id="currentTime">0:00</span>
+                                <span id="duration">0:00</span>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <audio id="audio" preload="metadata">
+                    <source src="assets/song.mp3" type="audio/mpeg">
+                </audio>
+
+            </div>
+
+        </section>
+
+
+        <!-- Contact -->
+        <section class="contact-section reveal">
+
+            <span class="section-label">03 — FIND ME</span>
+
+            <h2>Let's <span>Connect.</span></h2>
+
+            <p class="contact-description">
+                A little connection can mean a lot.
+            </p>
+
+            <div class="social-links">
+
+                <a href="https://instagram.com/s0roush08"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Instagram">
+
+                    <i class="fa-brands fa-instagram"></i>
+
+                </a>
+
+                <a href="https://t.me/s0roush08"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="Telegram">
+
+                    <i class="fa-brands fa-telegram"></i>
+
+                </a>
+
+                <a href="tel:+989043047831"
+                   aria-label="Call">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                </a>
+
+                <a href="https://wa.me/989043047831"
+                   target="_blank"
+                   rel="noopener noreferrer"
+                   aria-label="WhatsApp">
+
+                    <i class="fa-brands fa-whatsapp"></i>
+
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="footer reveal">
+
+            <div class="footer-line"></div>
+
+            <h3>SOROUSH<span>.</span></h3>
+
+            <p>MADE OF MEMORIES & SILENCE.</p>
+
+            <span class="copyright">
+                © 2026 — ALL RIGHTS RESERVED
+            </span>
+
+        </footer>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
